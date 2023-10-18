@@ -4,6 +4,7 @@ import { Product } from "./product";
 import "./shop.css";
 
 export const Shop = () => {
+
   return (
     <div className="shop">
       <div className="shopTitle">
@@ -14,6 +15,8 @@ export const Shop = () => {
         {PRODUCTS.map((product) => (
           <Product data={product} />
         ))}
+
+        
       </div>
     </div>
   );
